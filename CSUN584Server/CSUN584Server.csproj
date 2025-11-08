@@ -20,7 +20,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WorldModel\WorldModel.csproj" />
+    <ProjectReference Include="..\WorldModel\WorldMode.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.2.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="dotnet-ef" Version="9.*" />
   </ItemGroup>
 
 </Project>
